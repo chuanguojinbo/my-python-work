@@ -7,6 +7,5 @@ fuck you！
 
 creating a new branch is quick and simple，really？
 
-
-yes, it is
+no,it is not
 
