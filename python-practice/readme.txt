@@ -4,8 +4,11 @@ fuck you！
 
 说着玩的别当真
 
+<<<<<<< HEAD
+=======
+creating a new branch is quick and simple, really?
+>>>>>>> feature1
+creating a new branch is quick and simple, really？
 
-creating a new branch is quick and simple，really？
 
-no,it is not
 
