@@ -1,8 +1,9 @@
-#it is a historical moment
-import requests
-from lxml import html
-url='https://movie.doubancom/'
-page=requests.Session().get(url)
-tree=html.fromstring(page.text)
-result=tree.xpath('//td[@class="title"]//a/text()')
-print(result)
+names=['1','2','3']
+new_names='*'.join(names)
+print(names)
+print(new_names)
+names.sort(reverse=True)
+print(names)
+nnew_names=sorted(names)
+print(names)
+print(nnew_names)

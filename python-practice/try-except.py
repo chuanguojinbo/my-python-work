@@ -1,4 +1,4 @@
-print("Give me two numbers, and I'll divide them.")
+print("Give me two numbers, and I'll plus them.")
 print("Enter 'q' to quit.")
 while True:
 	first_number=input("\nFirst number: ")
@@ -8,8 +8,8 @@ while True:
 	if second_number=='q':
 		break
 	try:
-		answer=int(first_number)/int(second_number)
-	except ZeroDivisionError:
-		print("You can't divide by zero!")
+		answer=int(first_number)+int(second_number)
+	except ValueError:
+		print("Please input a number, not a character")
 	else:
 		print(answer)

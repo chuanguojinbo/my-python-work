@@ -1,0 +1,1 @@
+print('the bitch objected to my room has gone crazy,and she jammed the fucking toilet')
